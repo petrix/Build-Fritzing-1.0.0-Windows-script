@@ -12,8 +12,8 @@ if not exist PortableGit-2.42.0.2-64-bit.7z.exe DownloadFile https://github.com/
 
 rem https://www.7-zip.org/
 echo 7-Zip
-rem if not exist 7z2301-x64.exe DownloadFile https://www.7-zip.org/a/7z2301-x64.exe 7z2301-x64.exe
-if not exist 7zr.exe DownloadFile https://7-zip.org/a/7zr.exe 7zr.exe
+rem if not exist 7z2301-x64.exe DownloadFile https://f.bratan.ooo/fritzing-deps/7z2301-x64.exe 7z2301-x64.exe
+if not exist 7zr.exe DownloadFile https://f.bratan.ooo/fritzing-deps/7zr.exe 7zr.exe
 
 rem https://learn.microsoft.com/ja-jp/visualstudio/install/build-tools-container?view=vs-2019
 rem Build Tools
@@ -47,7 +47,7 @@ rem https://sourceforge.net/projects/ngspice/files/ng-spice-rework/42/
 echo ngspice-42 ngspice Files
 if not exist ngspice-42.tar.gz DownloadFile https://jaist.dl.sourceforge.net/project/ngspice/ng-spice-rework/42/ngspice-42.tar.gz ngspice-42.tar.gz
 
-if not exist ngspice-42_dll_64.7z DownloadFile https://master.dl.sourceforge.net/project/ngspice/ng-spice-rework/42/ngspice-42_dll_64.7z ngspice-42_dll_64.7z
+if not exist ngspice-42_dll_64.7z DownloadFile https://f.bratan.ooo/fritzing-deps/ngspice-44_dll_64.7z ngspice-44_dll_64.7z
 
 rem for Fritzing 1.0.2
 rem https://kb.firedaemon.com/support/solutions/articles/4000121705
